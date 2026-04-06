@@ -7,20 +7,20 @@ class Edr < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/jordw/edr/releases/download/v0.3.1/edr_0.3.1_darwin_arm64.tar.gz"
-      sha256 "35902447f5060c3ef47952a9b4a9b1644048f6a7e3c1d82a1fb6b86023931fe5"
+      sha256 "191d1b89009c75025792da85779e1e1fd8c298dd95aa647c17c76ef2d0245c61"
     else
       url "https://github.com/jordw/edr/releases/download/v0.3.1/edr_0.3.1_darwin_amd64.tar.gz"
-      sha256 "dde94817f30e701384023b780da15f33daaf84bab0cf5d84bf3147af218759e8"
+      sha256 "0e288d86361e4478cf02386bfda8bc0cf3b6ae271b82a25a7413cc8aab8f1174"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/jordw/edr/releases/download/v0.3.1/edr_0.3.1_linux_arm64.tar.gz"
-      sha256 "1085dd932b674e340b80335194ff6c00947b3a8d7d48a92c5d98e9af8c54ca0a"
+      sha256 "b069aad3bb0819cb6171a0663c5c3de59428c0f2e3a9399600f2c2f980cfc97f"
     else
       url "https://github.com/jordw/edr/releases/download/v0.3.1/edr_0.3.1_linux_amd64.tar.gz"
-      sha256 "aea430677f03831707776f9845e78b5522e0cf2f3eee2d47f335522609b7fd8e"
+      sha256 "80ddb44c00242bee29560df44addf3a222848966174b310148f7a422ba0299fc"
     end
   end
 
