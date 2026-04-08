@@ -2,25 +2,25 @@ class Edr < Formula
   desc "The editor for agents — context-preserving code navigation and editing"
   homepage "https://github.com/jordw/edr"
   license "MIT"
-  version "0.3.4"
+  version "0.3.5"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/jordw/edr/releases/download/v0.3.4/edr_0.3.4_darwin_arm64.tar.gz"
-      sha256 "c8b1c9d7abec01dcaab89bc47307d4fccded1b144e2845b52cbf0dd0dc413738"
+      url "https://github.com/jordw/edr/releases/download/v0.3.5/edr_0.3.5_darwin_arm64.tar.gz"
+      sha256 "93c29bc3d4465024a7c78cba37b8403ed063354a711fd3a2f389c278ade4a41e"
     else
-      url "https://github.com/jordw/edr/releases/download/v0.3.4/edr_0.3.4_darwin_amd64.tar.gz"
-      sha256 "669c3026deb8bfb681d2330a5c2d85bee3605c31ac23581c245187fd3a7987e2"
+      url "https://github.com/jordw/edr/releases/download/v0.3.5/edr_0.3.5_darwin_amd64.tar.gz"
+      sha256 "8a109f9a69caafe4e5208da3ecb417398560ffaa7bfc5fc017b7f6ca42335951"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/jordw/edr/releases/download/v0.3.4/edr_0.3.4_linux_arm64.tar.gz"
-      sha256 "a4b2ce143e57741a07459edc2979df30fdcf8dd86046b5872370469b1df63ab6"
+      url "https://github.com/jordw/edr/releases/download/v0.3.5/edr_0.3.5_linux_arm64.tar.gz"
+      sha256 "11eeed31af7c533021681d82b805a36a132a0bd8c669de0b070319a38d74b548"
     else
-      url "https://github.com/jordw/edr/releases/download/v0.3.4/edr_0.3.4_linux_amd64.tar.gz"
-      sha256 "6f2f46fffc9694f8247b27576c5fb8915e7c5f6f97982ee730a41824b489b979"
+      url "https://github.com/jordw/edr/releases/download/v0.3.5/edr_0.3.5_linux_amd64.tar.gz"
+      sha256 "482e55c29f0a6f750d957ca080a238afc3bb9f5024982f51053abe97bc41acb3"
     end
   end
 
